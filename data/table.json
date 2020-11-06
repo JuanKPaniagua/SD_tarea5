@@ -1,0 +1,70 @@
+data = [
+    {
+        "_id": 1,
+		"nombre":"Celia Ulloa Vega",
+        "genero": "Femenino",
+        "nacimiento": "12/12/1992",
+        "residencia": "Montes de Oca",
+		"contratos": [
+            {
+                "contrato_id": 1,
+                "title": "Liga - Activo"
+            },
+            {
+                "contrato_id": 2,
+                "title": "Dimas - Finalizado"
+            }
+        ]
+    },
+    {
+        "_id": 2,
+		"nombre":"Mariana Benavides Paniagua",
+        "genero": "Femenino",
+        "nacimiento": "20/12/1994",
+        "residencia": "San Rafael",
+		"contratos": [
+            {
+                "contrato_id": 3,
+                "title": "Herediano - Activo"
+            },
+			{
+                "contrato_id": 4,
+                "title": "Liga - Cancelado"
+            },
+            {
+                "contrato_id": 5,
+                "title": "Herediano - Finalizado"
+            }
+        ]
+    },
+	{
+        "_id": 3,
+		"nombre":"Carolina Jimenez Martinez",
+        "genero": "Femenino",
+        "nacimiento": "19/07/2000",
+        "residencia": "Heredia",
+		"contratos": [
+            {
+                "contrato_id": 6,
+                "title": "Operating System Concepts"
+            }
+        ]
+    },
+	{
+        "_id": 4,
+		"nombre":"Rosa Monge Vargas",
+		"genero": "Femenino",
+        "nacimiento": "01/01/1998",
+        "residencia": "Orosi",
+		"contratos": [
+            {
+                "contrato_id": 7,
+                "title": "Dimas - Finalizado"
+            },
+            {
+                "contrato_id": 8,
+                "title": "Herediano - Activo"
+            }
+        ]
+    }
+]
