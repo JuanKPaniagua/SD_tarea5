@@ -1,0 +1,70 @@
+data = [
+    {
+        "_id": 1,
+		"nombre":"Club Sport Herediano",
+        "cuidad": "Heredia",
+        "estadio": "Rosabal Cordero",
+        "fundacion": "1921",
+		"contratos": [
+            {
+                "contrato_id": 3,
+                "title": "Operating System Concepts"
+            },
+            {
+                "contrato_id": 5,
+                "title": "Database System Concepts"
+            },
+            {
+                "contrato_id": 8,
+                "title": "Database System Concepts"
+            }
+        ]
+    },
+    {
+        "_id": 2,
+		"nombre":"Liga Deportiva Alajuelense",
+        "cuidad": "Alajuela",
+        "estadio": "Alejando Morera Soto",
+        "fundacion": "1920",
+		"contratos": [
+            {
+                "contrato_id": 1,
+                "title": "Operating System Concepts"
+            },
+            {
+                "contrato_id": 4,
+                "title": "Database System Concepts"
+            }
+        ]
+    },
+	{
+        "_id": 3,
+		"nombre":"Dimas Escazu",
+        "cuidad": "Escazu",
+        "estadio": "Nicolas Masis",
+        "fundacion": "2005",
+		"contratos": [
+            {
+                "contrato_id": 2,
+                "title": "Operating System Concepts"
+            },
+            {
+                "contrato_id": 7,
+                "title": "Database System Concepts"
+            }
+        ]
+    },
+	{
+        "_id": 4,
+		"nombre":"Saprisa FC",
+		"cuidad": "Tibas",
+        "estadio": "Ricardo Saprisa",
+        "fundacion": "1956",
+		"contratos": [
+            {
+                "contrato_id": 6,
+                "title": "Operating System Concepts"
+            }
+        ]
+    }
+]
