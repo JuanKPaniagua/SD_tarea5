@@ -8,15 +8,15 @@ data = [
 		"contratos": [
             {
                 "contrato_id": 3,
-                "title": "Operating System Concepts"
+                "title": "Mariana Benavides - Activo"
             },
             {
                 "contrato_id": 5,
-                "title": "Database System Concepts"
+                "title": "Mariana Benavides - Finalizado"
             },
             {
                 "contrato_id": 8,
-                "title": "Database System Concepts"
+                "title": "Rosa Monge - Activo"
             }
         ]
     },
@@ -29,11 +29,11 @@ data = [
 		"contratos": [
             {
                 "contrato_id": 1,
-                "title": "Operating System Concepts"
+                "title": "Celia Ulloa - Activo"
             },
             {
                 "contrato_id": 4,
-                "title": "Database System Concepts"
+                "title": "Mariana Benavides - Cancelado"
             }
         ]
     },
@@ -46,11 +46,11 @@ data = [
 		"contratos": [
             {
                 "contrato_id": 2,
-                "title": "Operating System Concepts"
+                "title": "Celia Ulloa - Finalizado"
             },
             {
                 "contrato_id": 7,
-                "title": "Database System Concepts"
+                "title": "Rosa Monge - Finalizado"
             }
         ]
     },
@@ -63,7 +63,7 @@ data = [
 		"contratos": [
             {
                 "contrato_id": 6,
-                "title": "Operating System Concepts"
+                "title": "Carolina Jimenez - Activo"
             }
         ]
     }
