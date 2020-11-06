@@ -1,5 +1,5 @@
 <h4 style="margin-top: 15px">{{ title }}</h4>
-<h5>Book's details</h5>
+<h5>Dettalle de contrato</h5>
 <form>
   <div class="row">
     <div class="six columns">
@@ -7,36 +7,36 @@
        <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
     </div>
     <div class="six columns">
-       <label for="copyrightInput">Copyright</label>
-       <input class="u-full-width" type="text" id="copyright" 
-              value="{{ copyright }}" readonly/>
+       <label for="copyrightInput">Estado</label>
+       <input class="u-full-width" type="text" id="estado" 
+              value="{{ estado }}" readonly/>
     </div>
   </div>
   <div class="row">
     <div class="six columns">
-       <label for="editionInput">Edition</label>
-       <input class="u-full-width" type="text" id="edition" 
-              value="{{edition }}" readonly/>
+       <label for="editionInput">Fecha de inicio</label>
+       <input class="u-full-width" type="text" id="p_inicio" 
+              value="{{p_inicio }}" readonly/>
     </div>
     <div class="six columns">
-       <label for="languageInput">Language</label>
-       <input class="u-full-width" type="text" id="language" 
-              value="{{ language }}" readonly/>
+       <label for="languageInput">Fecha de finalizacion</label>
+       <input class="u-full-width" type="text" id="p_final" 
+              value="{{ p_final }}" readonly/>
     </div>
   </div>
   <div class="row">
     <div class="six columns">
-       <label for=" authorInput">Author</label>
-       <a href="https://authors-minisite.netlify.app/get/?id={{ author_id }}">
-         <input class="u-full-width" type="button" id=" author" 
-                value="{{ author }}" readonly/>
+       <label for=" authorInput">Equipo</label>
+       <a href="https://equipos-tarea5.netlify.app/get/?id={{ equipo_id }}">
+         <input class="u-full-width" type="button" id=" equipo" 
+                value="{{ equipo }}" readonly/>
        </a>
     </div>
     <div class="six columns">
-       <label for="languageInput">Publisher</label>
-       <a href="https://publishers-minisite.netlify.app/get/?id={{ publisher_id }}">
-         <input class="u-full-width" type="button" id="publisher" 
-                value="{{ publisher }}" readonly/>
+       <label for="languageInput">Jugadora</label>
+       <a href="https://jugadoras-tarea.netlify.app/get/?id={{ jugador_id }}">
+         <input class="u-full-width" type="button" id="jugador" 
+                value="{{ jugador }}" readonly/>
        </a>
     </div>
   </div>

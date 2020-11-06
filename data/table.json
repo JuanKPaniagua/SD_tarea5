@@ -1,50 +1,90 @@
 data = [
     {
         "_id": 1,
-        "title": "Operating System Concepts",
-        "edition": "9th",
-        "copyright": 2012,
-        "language": "ENGLISH",
-        "pages": 976,
-        "author": "Abraham Silberschatz",
-        "author_id": 1,
-        "publisher": "John Wiley & Sons",
-        "publisher_id": 1
+		"title":"Contrato 1",
+        "estado": "Activo",
+        "p_inicio": "Marzo 2016",
+        "p_final": "Marzo 2022",
+        "equipo": "Default FC",
+        "equipo_id": 1,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 1
     },
     {
         "_id": 2,
-        "title": "Database System Concepts",
-        "edition": "6th",
-        "copyright": 2010,
-        "language": "ENGLISH",
-        "pages": 1376,
-        "author": "Abraham Silberschatz",
-        "author_id": 1,
-        "publisher": "John Wiley & Sons",
-        "publisher_id": 1
+		"title":"Contrato 2",
+        "estado": "Finalizado",
+        "p_inicio": "Marzo 2015",
+        "p_final": "Marzo 2016",
+        "equipo": "Default FC",
+        "equipo_id": 3,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 1
     },
-    {
+	{
         "_id": 3,
-        "title": "Computer Networks",
-        "edition": "5th",
-        "copyright": 2010,
-        "language": "ENGLISH",
-        "pages": 960,
-        "author": "Andrew S. Tanenbaum",
-        "author_id": 2,
-        "publisher": "Pearson Education",
-        "publisher_id": 2
+		"title":"Contrato 3",
+        "estado": "Activo",
+        "p_inicio": "Marzo 2020",
+        "p_final": "Marzo 2022",
+        "equipo": "Default FC",
+        "equipo_id": 2,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 2
     },
-    {
+	{
         "_id": 4,
-        "title": "Modern Operating Systems",
-        "edition": "4th",
-        "copyright": 2014,
-        "language": "ENGLISH",
-        "pages": 1136,
-        "author": "Andrew S. Tanenbaum",
-        "author_id": 2,
-        "publisher": "Pearson Education",
-        "publisher_id": 2
+		"title":"Contrato 4",
+        "estado": "Cancelado",
+        "p_inicio": "Marzo 2018",
+        "p_final": "Marzo 2021",
+        "equipo": "Default FC",
+        "equipo_id": 1,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 2
+    },
+	{
+        "_id": 5,
+		"title":"Contrato 5",
+        "estado": "Finalizado",
+        "p_inicio": "Marzo 2016",
+        "p_final": "Marzo 2018",
+        "equipo": "Default FC",
+        "equipo_id": 2,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 2
+    },
+	{
+        "_id": 6,
+		"title":"Contrato 6",
+        "estado": "Activo",
+        "p_inicio": "Marzo 2019",
+        "p_final": "Marzo 2024",
+        "equipo": "Default FC",
+        "equipo_id": 4,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 3
+    },
+	{
+        "_id": 7,
+		"title":"Contrato 7",
+        "estado": "Finalizado",
+        "p_inicio": "Marzo 2016",
+        "p_final": "Marzo 2019",
+        "equipo": "Default FC",
+        "equipo_id": 3,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 4
+    },
+	{
+        "_id": 8,
+		"title":"Contrato 8",
+        "estado": "Activo",
+        "p_inicio": "Marzo 2019",
+        "p_final": "Marzo 2024",
+        "equipo": "Default FC",
+        "equipo_id": 1,
+        "jugador": "Nombre Aleatorio",
+        "jugador_id": 4
     }
 ]
